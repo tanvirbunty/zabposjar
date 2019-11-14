@@ -1,1 +1,1 @@
-  update zbusiness set zactive = '1' where zid = '200020';
+  update zbusiness set zactive = '0' where zid = '200020';
