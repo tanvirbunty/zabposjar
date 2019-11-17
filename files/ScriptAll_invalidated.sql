@@ -4,6 +4,7 @@ update opdef set xdate = GETDATE() where xacc = 'License Renew'
 --update opdef set zactive = '1' where xacc = 'License Renew'
 --update zbusiness set zactive = '1' where zid = '200020';  
 
+/*
 insert into xcode (xcode, xtype, xshopno, zactive, zauserid, zid, ztime, zutime, zuuserid) 
 			values('Uber Eats', 'Delivery Service', '0001', '1', 'zabadmin', '200011', GETDATE(), GETDATE(), 'zabadmin')
 insert into xcode (xcode, xtype, xshopno, zactive, zauserid, zid, ztime, zutime, zuuserid) 
@@ -43,7 +44,7 @@ insert into xcode (xcode, xtype, xshopno, zactive, zauserid, zid, ztime, zutime,
 insert into xcode (xcode, xtype, xshopno, zactive, zauserid, zid, ztime, zutime, zuuserid) 
 			values('Uber Eats', 'Delivery Service', 'FB--0001', '1', 'zabadmin', '100070', GETDATE(), GETDATE(), 'zabadmin')
 
-
+*/
 
 
 
