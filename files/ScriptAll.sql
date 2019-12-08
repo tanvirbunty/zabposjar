@@ -8,8 +8,8 @@ update opdef set xdate = GETDATE() where xacc = 'License Renew'
 --oppos sign inlog shop no update
 update oppossigninlog  set xshopno=  b.xshopno from opdoheader b 
 --update sign in proc
+GO
 ALTER PROC [dbo].[zabsp_POS_updatePOSSigninSignoff]
-
 @zid INT
 ,@user VARCHAR(50)
 ,@yearperdate INT
