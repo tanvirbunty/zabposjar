@@ -5,6 +5,9 @@ update opdef set zactive = '0' where xacc = 'License Renew' and zid='200326';
 update zbusiness set zactive = '0' where zid = '200326';
 update opdef set zactive = '0' where xacc = 'License Renew' and zid='200327';
 update zbusiness set zactive = '0' where zid = '200327';
+update opdef set zactive = '0' where xacc = 'License Renew' and zid='200331';
+update zbusiness set zactive = '0' where zid = '200331';
+
 
 /** Temporary remove minimum after 3 days **/ 
 DECLARE 
