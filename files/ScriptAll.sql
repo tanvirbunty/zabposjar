@@ -1,8 +1,10 @@
 update opdef set xdate = GETDATE() where xacc = 'License Renew'
 
 -- stop pos manullay from cloud
---update opdef set zactive = '1' where xacc = 'License Renew' and zid='200020'
---update zbusiness set zactive = '1' where zid = '200020';  
+update opdef set zactive = '0' where xacc = 'License Renew' and zid='200326';
+update zbusiness set zactive = '0' where zid = '200326';
+update opdef set zactive = '0' where xacc = 'License Renew' and zid='200327';
+update zbusiness set zactive = '0' where zid = '200327';
 
 /** Temporary remove minimum after 3 days **/ 
 DECLARE 
