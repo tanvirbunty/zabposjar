@@ -20,5 +20,6 @@ IF @zid<>'100070'
 BEGIN
 INSERT INTO xcodes(xcode,xtype,xshopno,zactive,zauserid,zid,ztime) values('Evaly Express','Delivery Service',@xshopno,'1','zabadmin',@zid,GETDATE());
 INSERT INTO xcodes(xcode,xtype,xshopno,zactive,zauserid,zid,ztime) values('Pathao Food','Delivery Service',@xshopno,'1','zabadmin',@zid,GETDATE());
+INSERT INTO xcodes(xcode,xtype,xshopno,zactive,zauserid,zid,ztime) values('Shohoz','Delivery Service',@xshopno,'1','zabadmin',@zid,GETDATE());
 END
 
